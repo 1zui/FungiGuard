@@ -1,0 +1,4 @@
+Model,Training Accuracy (%),Validation Accuracy (%),Gap (%)
+Random Forest,100.0,100.0,0.0
+Decision Tree,100.0,100.0,0.0
+Logistic Regression,99.92,99.92,0.0

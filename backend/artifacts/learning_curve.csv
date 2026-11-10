@@ -1,0 +1,5 @@
+Jumlah Data,Training Accuracy (%),Testing Accuracy (%),Poisonous Predicted Edible
+10,100.0,90.71,63
+200,100.0,98.65,8
+800,100.0,99.82,3
+6499,100.0,100.0,0

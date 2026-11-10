@@ -1,0 +1,73 @@
+
+# ===================================
+# NEXT.JS
+# ===================================
+node_modules/
+.next/
+out/
+.vercel/
+build/
+next-env.d.ts
+
+# ===================================
+# PYTHON
+# ===================================
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# ===================================
+# ENVIRONMENT
+# ===================================
+.env
+.env.*
+!.env.example
+
+# ===================================
+# LOGS
+# ===================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===================================
+# TYPESCRIPT
+# ===================================
+*.tsbuildinfo
+
+# ===================================
+# EDITORS
+# ===================================
+.vscode/
+.idea/
+
+# ===================================
+# SYSTEM
+# ===================================
+.DS_Store
+Thumbs.db
+*.pem
+
+# ===================================
+# TEMPORARY
+# ===================================
+tmp/
+temp/
+dist/
+
+# ===================================
+# MACHINE LEARNING
+# ===================================
+# Model .joblib dan .pkl tetap disimpan.
+# Jangan abaikan folder artifacts.
+
+# Git backup
+/frontend-git-backup/

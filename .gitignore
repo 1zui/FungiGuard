@@ -1,0 +1,62 @@
+
+# =====================================
+# FUNGIGUARD - ROOT GITIGNORE
+# =====================================
+
+# Git backup
+/frontend-git-backup/
+
+# Python
+**/__pycache__/
+*.py[cod]
+**/venv/
+**/.venv/
+**/env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/.vercel/
+**/next-env.d.ts
+
+# Environment variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# Temporary files
+tmp/
+temp/
+dist/
+coverage/
+htmlcov/
+
+# Machine Learning
+# Jangan abaikan .joblib dan .pkl.
+# Model FungiGuard harus tersimpan di GitHub.
